@@ -1,0 +1,16 @@
+Institution_Name,Main_Office,Branch_Name,Branch_Number,Established_Date,Acquired_Date,Street_Address,City,County,State,Zipcode,Latitude,Longitude,2010_Deposits,2011_Deposits,2012_Deposits,2013_Deposits,2014_Deposits,2015_Deposits,2016_Deposits
+Bitcoin Bank,1,Bitcoin Bank Main Office,0,01/01/2009,,1111 Polaris Parkway,Columbus,Delaware,OH, 43240,40.14453,-82.99115,633131000,743268000,832455000,916543000,1032549000,1069425000,1155185000
+Bitcoin Bank,0,Grand Army Plaza Branch,33,03/14/2011,,401 Flatbush Avenue,Brooklyn,Kings,NY,11238,40.67576,-73.97135,135506,136764,146051,163797,178001,227647,255084
+Bitcoin Bank,0,Sixth Avenue and 23rd St Branch,172,01/06/2010,,71 West 23rd Street,New York City,New York,NY,10010,40.74255,-73.99181,198983,217332,256321,283391,300821,326825,400764
+Bitcoin Bank,0,Ft. Collins South Banking Center Branch,3331,07/16/2013,11/13/2014,4603 Boardwalk Drive,Fort Collins,Larimer,CO,80525,40.51502,-105.06218,53623,52005,61225,65562,76108,94929,112591
+Bitcoin Bank,0,Draper Banking Center Branch,3402,05/19/2004,11/13/2014,1462 East Draper Parkway,Draper,Salt Lake,UT,84020,40.52745,-111.84967,35908,37899,39953,36757,39302,49332,45477
+Bitcoin Bank,0,Andersonville Banking Center Branch,3424,07/29/2014,11/13/2014,5134 North Clark Street,Chicago,Cook,IL,60640,41.9755,-87.66837,33181,34558,39556,42879,49577,63986,72751
+Bitcoin Bank,0,Carefree & 1-17 Banking Ctr Branch,4344,12/31/2017,,34630 North Valley Parkway,Phoenix,Maricopa,AZ,85086,33.79971,-112.12945,15776,20624,31624,39330,46107,53727,60053
+Bitcoin Bank,0,Lakewood Branch,4489,01/01/2019,04/25/2019,5059 Lakewood Boulevard,Lakewood,Los Angeles,CA,90712,33.85011,-118.14264,166535,168398,171431,169544,174895,185502,210774
+Bitcoin Bank,0,Long Beach Plaza Branch,4532,01/01/2015,09/25/2017,6300 E Spring Street,Long Beach,Los Angeles,CA,90815,33.81042,-118.10902,200237,200508,205283,213235,213357,225924,239885
+Bitcoin Bank,0,Boynton Military Branch,4741,09/28/2012,09/25/2017,5000 West Boynton Beach Boulevard,Boynton Beach,Palm Beach,FL,33436,26.52797,-80.12227,145972,161541,176844,204318,205795,205615,216360
+Bitcoin Bank,0,Mission Paseo Branch,5466,04/05/2017,09/25/2017,2585 S Rainbow Blvd,Las Vegas,Clark,NV,89146,36.14259,-115.24308,36394,44661,48757,59851,69785,78537,82766
+Bitcoin Bank,0,Fort Collins - Mulberry & Lemay Brh,5559,07/14/2013,09/25/2015,”1275 E. Magnolia St, Ste J",Fort Collins,Larimer,CO,80524,40.58432,-105.05514,11699,15023,26898,26131,42904,47427,53678
+Bitcoin Bank,0,Martin Luther King Branch,5583,04/01/2015,09/25/2018,7100 Marting Luther King Jr Way South,Seattle,King,WA,98118,47.54252,-122.26903,71748,71560,71602,71180,72662,79812,81905
+Bitcoin Bank,0,Northwest Boulevard Branch,5611,07/01/2012,09/25/2018,2215 Northwest Boulevard,Spokane,Spokane,WA,99205,47.6834,-117.44512,28179,26336,26471,24602,24368,24297,28431
+
