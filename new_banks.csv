@@ -1,4 +1,4 @@
-Institution_Name,Main_Office,Branch_Name,Branch_Number,Established_Date,Acquired_Date,Street_Address,City,County,State,Zipcode,Latitude,Longitude,2010_Deposits,2011_Deposits,2012_Deposits,2013_Deposits,2014_Deposits,2015_Deposits,2016_Deposits
+Institution_Name,Main_Office,Branch_Name,Branch_Number,Established_Date,Day_of_Year,Street_Address,City,County,State,Zipcode,Latitude,Longitude,2010_Deposits,2011_Deposits,2012_Deposits,2013_Deposits,2014_Deposits,2015_Deposits,2016_Deposits
 Bitcoin Bank,1,Bitcoin Bank Main Office,0,01/01/2009,,1111 Polaris Parkway,Columbus,Delaware,OH, 43240,40.14453,-82.99115,633131000,743268000,832455000,916543000,1032549000,1069425000,1155185000
 Bitcoin Bank,0,Grand Army Plaza Branch,33,03/14/2011,,401 Flatbush Avenue,Brooklyn,Kings,NY,11238,40.67576,-73.97135,135506,136764,146051,163797,178001,227647,255084
 Bitcoin Bank,0,Sixth Avenue and 23rd St Branch,172,01/06/2010,,71 West 23rd Street,New York City,New York,NY,10010,40.74255,-73.99181,198983,217332,256321,283391,300821,326825,400764
