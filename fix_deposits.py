@@ -20,6 +20,19 @@ with open('new_banks.csv') as newBanks:
 
 print("banks:\n", banks[0].keys())
 
+def saverow(row):
+    with open('updated_deposits.csv', 'a', newline='\n') as f:
+        if f.tell() == 0:
+            print("f.tell", f.tell())
+            header = list(row.keys())
+           
+        else:
+            writer = csv.writer(f)
+            print("writing row", row)
+            writer.writerow(row) # Occasionally causes an error for no keys
+
+
+
 def daterange(start_date, end_date):
     for n in range(int ((end_date - start_date).days)):
         yield start_date + timedelta(n)
@@ -28,12 +41,16 @@ start_date = date(2010, 1, 1)
 end_date = date(2050, 1, 1)
 day = daterange(start_date, end_date)
 
+output = open('updated_deposits.csv', 'w', newline='\n')
 with open('bank_deposits.csv', 'r') as file:
     deposits = csv.DictReader(file)
     deposits = list(deposits)
+    header = deposits[0].keys()
+    writer = csv.DictWriter(output, fieldnames=header, quoting=csv.QUOTE_MINIMAL)
+    writer.writeheader()
     new_deposits = []
     for bank in banks:
-        print("New Bank: ", bank)
+        print("\n\nNew Bank: ", bank)
         #print("firstdeposits:",deposits[1])
         bank_year = deposits[:365]
         #print("abankyear:", bank_year[0].keys())
@@ -51,25 +68,14 @@ with open('bank_deposits.csv', 'r') as file:
                 # Change the old bank location to the current bank location of the 14 total
                 for column, value in bank.items():
                     row[column] = value
-                #print(row)
-                #input()
+                writer.writerow(row)
             
             # Start building the new list of day rows
-            for row in bank_year:
+            # for row in bank_year:
                 # Pop off random None: [
                 # None key is view only
                 # print("inRowPop",row[None])
-                new_deposits.append(row)
-
-
-    # We have used up all year-sized data sets
-    print("yo", len(bank_year))
-    with open('new_deposits_data.csv', 'w') as f:
-        headers = list(new_deposits[0].keys())
-        print(headers)
-        writer = csv.DictWriter(f, headers)
-        writer.writeheader()
-        writer.writerows(new_deposits)
+                # new_deposits.append(row)
 
 
 print("Complete.")
