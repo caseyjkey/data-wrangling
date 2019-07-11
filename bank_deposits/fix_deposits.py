@@ -1,3 +1,9 @@
+'''
+Script used for modifying JPMorgan Chase Branch's Yearly Bank Deposits
+Created By: Casey Key, SE Intern
+Created: July 9th, 2019
+'''
+
 import csv
 from datetime import timedelta, date
 
